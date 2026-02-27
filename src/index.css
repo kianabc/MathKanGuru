@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #FFF7ED;
+  --color-primary-100: #FFEDD5;
+  --color-primary-200: #FED7AA;
+  --color-primary-300: #FDBA74;
+  --color-primary-400: #FB923C;
+  --color-primary-500: #F97316;
+  --color-primary-600: #EA580C;
+  --color-primary-700: #C2410C;
+  --color-primary-800: #9A3412;
+  --color-primary-900: #7C2D12;
+
+  --color-secondary-50: #F0FDFA;
+  --color-secondary-100: #CCFBF1;
+  --color-secondary-200: #99F6E4;
+  --color-secondary-300: #5EEAD4;
+  --color-secondary-400: #2DD4BF;
+  --color-secondary-500: #14B8A6;
+  --color-secondary-600: #0D9488;
+  --color-secondary-700: #0F766E;
+  --color-secondary-800: #115E59;
+  --color-secondary-900: #134E4A;
+
+  --color-accent-50: #FEFCE8;
+  --color-accent-100: #FEF9C3;
+  --color-accent-200: #FEF08A;
+  --color-accent-300: #FDE047;
+  --color-accent-400: #FACC15;
+  --color-accent-500: #EAB308;
+  --color-accent-600: #CA8A04;
+
+  --color-warm-50: #FFFBF5;
+  --color-warm-100: #FFF5E8;
+
+  --color-correct: #22C55E;
+  --color-wrong: #EF4444;
+
+  --font-heading: 'Fredoka One', cursive;
+  --font-body: 'Nunito', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-warm-50);
+  color: #1a1a2e;
+  margin: 0;
+  min-height: 100dvh;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+}
